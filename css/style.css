@@ -144,6 +144,7 @@ a:hover {
   margin: 0px 10px;
   padding: 5px 5px;
   border-radius: 5px;
+  font-size: 0.9em;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
@@ -160,14 +161,31 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  border: solid 1px red;
+}
+
+.posts-center .card .card-body .contenido .interactions .save .text-save {
+  font-size: 0.7em;
+}
+
+.posts-center .card .card-body .contenido .interactions .save .btn-save {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  background-color: rgba(223, 219, 219, 0.774);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.posts-center .card .card-body .contenido .interactions .save .btn-save:hover {
+  background-color: #c2c2c2;
 }
 /*# sourceMappingURL=style.css.map */

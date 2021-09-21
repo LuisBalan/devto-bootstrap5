@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto-regular", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #090909;
+}
+
+a:hover {
+  color: #090909;
+}
+
+.navbar-center {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-center .nav-item-center {
+  margin: 10px;
+  font-size: 1.2em;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.navbar-center .nav-item-center:hover {
+  color: #4d72de;
+}
+
+.posts-center .card .card-body p {
+  margin-bottom: 0px;
+  color: #575757;
+}
+
+.posts-center .card .card-body .perfil {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.posts-center .card .card-body .perfil img.img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.posts-center .card .card-body .perfil .data .name {
+  font-size: 0.9em;
+}
+
+.posts-center .card .card-body .perfil .data .date {
+  font-size: 0.7em;
+}
+
+.posts-center .card .card-body .contenido {
+  padding-left: 40px;
+}
+
+.posts-center .card .card-body .contenido .title {
+  font-size: 2em;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.posts-center .card .card-body .contenido .title:hover {
+  color: #4d72de;
+}
+
+.posts-center .card .card-body .contenido a.post-tags {
+  margin-right: 5px;
+  font-size: 0.9em;
+  color: #575757;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.posts-center .card .card-body .contenido a.post-tags:hover {
+  color: #090909;
+}
+
+.posts-center .card .card-body .contenido .interactions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.posts-center .card .card-body .contenido .interactions .likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.posts-center .card .card-body .contenido .interactions .likes .reactions, .posts-center .card .card-body .contenido .interactions .likes .comments {
+  margin: 0px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.posts-center .card .card-body .contenido .interactions .likes .reactions:hover, .posts-center .card .card-body .contenido .interactions .likes .comments:hover {
+  background-color: rgba(223, 219, 219, 0.774);
+}
+
+.posts-center .card .card-body .contenido .interactions .save {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  border: solid 1px red;
+}
+/*# sourceMappingURL=style.css.map */

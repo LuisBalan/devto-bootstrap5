@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "roboto-regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  //Fuentes
+  font-family: "roboto-regular", Arial, Helvetica, sans-serif;
+  background-color: $secundaryColor;
+}
+a {
+  text-decoration: none;
+  color: $cuaternaryColor;
+}
+a:hover{
+  color: $cuaternaryColor;
+}

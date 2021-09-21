@@ -30,6 +30,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 10px 0 15px 0;
 }
 
 .my_tags_container a {
@@ -41,5 +42,13 @@
 .my_tags_container a .bi-nut {
   color: #090909;
   font-weight: bolder;
+}
+
+.tags-column {
+  height: 278px;
+}
+
+.card {
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */

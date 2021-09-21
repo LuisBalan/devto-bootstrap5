@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AKMA,AAAA,aAAa,CAAA;EACT,KAAK,EAAC,IAAI;CACb;;AAED,AACI,WADO,CACP,gBAAgB,CAAA;EACZ,MAAM,EAAE,IAAI;CACf;;AAHL,AAKI,WALO,CAKP,UAAU,CAAA;EAdV,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,KAAK;CAef;;AAIL,AAAA,WAAW,CAAA;EApBP,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,KAAK;CAqBnB;;AAED,AAAA,kBAAkB,CAAA;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CAgBjC;;AApBD,AAOI,kBAPc,CAOd,CAAC,CAAA;EACG,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG;CAOrB;;AAjBL,AAWQ,kBAXU,CAOd,CAAC,CAIG,OAAO,CAAA;EACH,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,MAAM;CAEtB",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_utils.scss",
+        "../scss/_config.scss",
+        "../scss/_mixins.scss",
+        "../scss/_navbar.scss",
+        "../scss/_left-aside.scss",
+        "../scss/_main.scss",
+        "../scss/_rigth-aside.scss",
+        "../scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

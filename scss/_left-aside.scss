@@ -1,0 +1,46 @@
+@mixin tags-style(){
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+.rainbow-logo{
+    width:22px;
+}
+
+.list-group{
+    .list-group-item{
+        border: none;
+    }
+
+    .other-tag{
+        @include tags-style();
+    }
+ 
+}
+
+.mytags-tag{
+    @include tags-style();
+}
+
+.my_tags_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+    a{
+        background: #e7e7e7;
+        padding: 3px;
+        border-radius: 5px;
+        .bi-nut{
+            color: #090909;
+            font-weight: bolder;
+          
+        }
+
+    }
+
+    
+}

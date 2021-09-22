@@ -269,6 +269,66 @@ img.img-perfil {
 .likes .reactions:hover, .likes .comments:hover {
   background-color: rgba(223, 219, 219, 0.774);
 }
+.forem-dev-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.forem-dev-section .forem-dev-image-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.forem-dev-section .forem-dev-image-link a img {
+  width: 290px;
+  height: auto;
+}
+
+.forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bold;
+}
+
+.forem-dev-section .card-body .join {
+  color: #3b49df;
+=======
+p.parra {
+  margin-bottom: 0px;
+  color: #575757;
+}
+
+a.post-tags {
+  margin-right: 5px;
+  font-size: 0.9em;
+  color: #575757;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+a.post-tags:hover {
+  color: #090909;
+}
+
+img.img-perfil {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.9em;
+}
+
+.date, .text-save {
+  font-size: 0.7em;
+}
 
 .forem-dev-section {
   -webkit-box-align: center;
@@ -397,6 +457,7 @@ img.img-perfil {
           align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+
 }
 
 .discusions .discu-comments .area-text {

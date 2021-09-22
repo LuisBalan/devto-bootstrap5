@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/_utils.scss",
+        "../scss/_config.scss",
+        "../scss/_mixins.scss",
+        "../scss/_navbar.scss",
+        "../scss/_left-aside.scss",
+        "../scss/_main.scss",
+        "../scss/_rigth-aside.scss",
+        "../scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

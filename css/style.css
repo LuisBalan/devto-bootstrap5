@@ -420,6 +420,65 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.help-section .list-group .help-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.help-section .list-group .help-section-head .help-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.help-section .list-group .help-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.help-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.help-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
 .card-post .body-post {
   padding-left: 50px;
 }

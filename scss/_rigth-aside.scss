@@ -156,3 +156,59 @@
 
     }
 }
+
+.help-section{
+    .list-group{
+
+        .help-section-head{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-start;
+      
+            .help-link{
+                color: $quinaryColor;
+                font-weight: bolder;
+                font-size: large;
+                color: black;
+            }
+
+            .news-link:hover{
+                color: $quinaryColor;
+            }
+        }
+
+        .list-group-item{
+           
+            .subtitle-listing-elements{
+                font-size: small;
+                color: $shadowsideColor;
+                font-weight: bold;
+            }
+
+            .subtitle-listing-elements:hover{
+                color: $pTextColor;
+            }
+
+            .btn{
+                background: $quinaryColor;
+                padding: 1.5px;
+                font-size: small;
+            }
+        }
+
+        .list-group-item:hover{
+            color: $quinaryColor;
+        }
+
+        .create-a-listing-button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+
+        }
+
+    }
+}

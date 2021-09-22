@@ -237,36 +237,6 @@ a:hover {
   background-color: #c2c2c2;
 }
 
-
-.forem-dev-section {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #f9f9f9;
-  border-radius: 10px;
-}
-
-.forem-dev-section .forem-dev-image-link {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  overflow: hidden;
-  padding: 5px;
-}
-
-.forem-dev-section .forem-dev-image-link a img {
-  width: 290px;
-  height: auto;
-}
-
-.forem-dev-section .card-body .card-text a span {
-  color: #3b49df;
-  font-weight: bold;
-}
-
-.forem-dev-section .card-body .join {
-  color: #3b49df;
-
 p.parra {
   margin-bottom: 0px;
   color: #575757;
@@ -297,6 +267,36 @@ img.img-perfil {
 
 .date, .text-save {
   font-size: 0.7em;
+}
+
+.forem-dev-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.forem-dev-section .forem-dev-image-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.forem-dev-section .forem-dev-image-link a img {
+  width: 290px;
+  height: auto;
+}
+
+.forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bold;
+}
+
+.forem-dev-section .card-body .join {
+  color: #3b49df;
 }
 
 .card-post .body-post {
@@ -396,6 +396,5 @@ img.img-perfil {
           align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-
 }
 /*# sourceMappingURL=style.css.map */

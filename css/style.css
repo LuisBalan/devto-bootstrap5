@@ -480,6 +480,108 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.left-aside-post {
+  padding-top: 50px;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.left-aside-post .card {
+  border: none;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.left-aside-post .card .crayons-icon {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .left-icon {
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .card-body {
+  padding: 5px;
+}
+
+.left-aside-post .card.like:hover .crayons-icon {
+  fill: red;
+}
+
+.left-aside-post .card.like:hover .left-icon {
+  background-color: rgba(255, 0, 0, 0.149);
+}
+
+.left-aside-post .card.unicorn .sub-icon {
+  fill: #08090A;
+}
+
+.left-aside-post .card.unicorn:hover .crayons-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .sub-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .left-icon {
+  background-color: rgba(204, 0, 255, 0.149);
+}
+
+.left-aside-post .card.save:hover .crayons-icon {
+  fill: #0073ff;
+}
+
+.left-aside-post .card.save:hover .left-icon {
+  background-color: rgba(0, 76, 255, 0.149);
+}
+
+.left-aside-post .card.options .left-icon {
+  width: 34px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+.left-aside-post .card.options:hover .left-icon {
+  background-color: rgba(133, 133, 133, 0.149);
+}
+
 .card-post .body-post {
   padding-left: 50px;
 }
@@ -674,5 +776,137 @@ img.img-perfil {
 
 .discusions .list-comments .comment .comment-text {
   padding-left: 50px;
+}
+
+.right-aside-post {
+  position: -webkit-sticky;
+  position: sticky;
+  height: auto;
+  top: 50px;
+}
+
+.right-aside-post .author-information-container {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 0.2px solid #b1b1b1;
+}
+
+.right-aside-post .author-information-container .photo-name-author {
+  border: none;
+  padding: 0 0 3px 0;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-header {
+  background: #bdc3c7;
+  padding: 0 0 15px 0;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  top: -35px;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body img {
+  border-radius: 50%;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body .card-title {
+  position: relative;
+  left: 3px;
+  bottom: -10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.right-aside-post .author-information-container .follow-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-aside-post .author-information-container .follow-button-container .follow-button {
+  border: none;
+  background: #4d72de;
+  width: 90%;
+}
+
+.right-aside-post .author-information-container .follow-button:hover {
+  background: #3b49df;
+}
+
+.right-aside-post .author-information-container .author-quote {
+  border: none;
+}
+
+.right-aside-post .author-information-container .author-quote .card-body p {
+  color: #575757;
+}
+
+.right-aside-post .author-information-container .personal-info-author {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author ul {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author ul li {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .question {
+  font-size: small;
+  font-weight: bold;
+  color: #575757;
+}
+
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .answer {
+  font-size: medium;
+  color: #090909;
+}
+
+.right-aside-post .more-about-author-container .list-group .more-about-title {
+  font-size: x-small;
+  font-weight: bolder;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item {
+  color: black;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item span {
+  color: #3b49df;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item .tag {
+  color: #575757;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item:hover {
+  background: white;
+  color: #3b49df;
 }
 /*# sourceMappingURL=style.css.map */

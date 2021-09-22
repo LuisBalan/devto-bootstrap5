@@ -58,12 +58,15 @@
 
             .listing-noun{
                 font-weight: bolder;
+                font-size: large;
+                color: black;
             }
 
             a{
                 
                 .see-all-option-link{
                 color: $quinaryColor;
+                font-weight: bold;
                 }
 
             }
@@ -72,10 +75,27 @@
         .list-group-item{
            
             .subtitle-listing-elements{
-                font-size: medium;
-                color:#575757;
+                font-size: small;
+                color: $shadowsideColor;
                 font-weight: bold;
             }
+
+            .subtitle-listing-elements:hover{
+                color: $pTextColor;
+            }
+        }
+
+        .list-group-item:hover{
+            color: $quinaryColor;
+        }
+
+        .create-a-listing-button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+
         }
 
     }

@@ -678,13 +678,14 @@ img.img-perfil {
 
 .author-information-container {
   width: 100%;
-  margin: 0;
-  border: none;
+  margin: 0 0 20px 0;
+  border: 0.2px solid #b1b1b1;
   position: -webkit-sticky;
   position: sticky;
 }
 
 .author-information-container .photo-name-author {
+  border: none;
   padding: 0 0 3px 0;
 }
 
@@ -723,16 +724,50 @@ img.img-perfil {
   font-size: x-large;
 }
 
-.author-information-container .follow-button {
+.author-information-container .follow-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.author-information-container .follow-button-container .follow-button {
+  border: none;
   background: #4d72de;
+  width: 90%;
 }
 
 .author-information-container .follow-button:hover {
   background: #3b49df;
 }
 
+.author-information-container .author-quote {
+  border: none;
+}
+
 .author-information-container .author-quote .card-body p {
   color: #575757;
+}
+
+.author-information-container .personal-info-author {
+  border: none;
+}
+
+.author-information-container .personal-info-author ul {
+  border: none;
+}
+
+.author-information-container .personal-info-author ul li {
+  border: none;
 }
 
 .author-information-container .personal-info-author .list-group .list-group-item .question {
@@ -744,5 +779,27 @@ img.img-perfil {
 .author-information-container .personal-info-author .list-group .list-group-item .answer {
   font-size: medium;
   color: #090909;
+}
+
+.more-about-author-container .list-group .more-about-title {
+  font-size: x-small;
+  font-weight: bolder;
+}
+
+.more-about-author-container .list-group .list-group-item {
+  color: black;
+}
+
+.more-about-author-container .list-group .list-group-item span {
+  color: #3b49df;
+}
+
+.more-about-author-container .list-group .list-group-item .tag {
+  color: #575757;
+}
+
+.more-about-author-container .list-group .list-group-item:hover {
+  background: white;
+  color: #3b49df;
 }
 /*# sourceMappingURL=style.css.map */

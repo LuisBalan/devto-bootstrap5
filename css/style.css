@@ -361,6 +361,65 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.news-section .list-group .news-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news-section .list-group .news-section-head .news-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.news-section .list-group .news-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.news-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.news-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
 .card-post .body-post {
   padding-left: 50px;
 }

@@ -2,6 +2,7 @@
     align-items: center;
     background: #f9f9f9;
     border-radius: 10px;
+    padding-bottom: 0;
     // border: 1px solid black;
 
     .forem-dev-image-link{
@@ -9,6 +10,9 @@
         overflow: hidden;
         padding: 5px;
         // border: 1px solid red;
+        margin: 10px;
+        position: relative;
+        top: 10px;
         a{
             img{
                 width: 290px;
@@ -20,19 +24,59 @@
 
     .card-body{
         .card-text{
+            text-align: justify;
             a{
                 span{
                     color: $quinaryColor;
-                    font-weight: bold;
+                    font-weight: bolder;
                 }
             }
             
         }
         .join{
-            color: $quinaryColor;
+            a{
+                color: $quinaryColor;
+                font-weight: bold;
+
+            }
+            
         }
         
         
     }
 
+}
+
+.listing-section{
+    .list-group{
+
+        .listing-section-head{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .listing-noun{
+                font-weight: bolder;
+            }
+
+            a{
+                
+                .see-all-option-link{
+                color: $quinaryColor;
+                }
+
+            }
+        }
+
+        .list-group-item{
+           
+            .subtitle-listing-elements{
+                font-size: medium;
+                color:#575757;
+                font-weight: bold;
+            }
+        }
+
+    }
 }

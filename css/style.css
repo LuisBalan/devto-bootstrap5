@@ -480,6 +480,108 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.left-aside-post {
+  padding-top: 50px;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.left-aside-post .card {
+  border: none;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.left-aside-post .card .crayons-icon {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .left-icon {
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .card-body {
+  padding: 5px;
+}
+
+.left-aside-post .card.like:hover .crayons-icon {
+  fill: red;
+}
+
+.left-aside-post .card.like:hover .left-icon {
+  background-color: rgba(255, 0, 0, 0.149);
+}
+
+.left-aside-post .card.unicorn .sub-icon {
+  fill: #08090A;
+}
+
+.left-aside-post .card.unicorn:hover .crayons-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .sub-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .left-icon {
+  background-color: rgba(204, 0, 255, 0.149);
+}
+
+.left-aside-post .card.save:hover .crayons-icon {
+  fill: #0073ff;
+}
+
+.left-aside-post .card.save:hover .left-icon {
+  background-color: rgba(0, 76, 255, 0.149);
+}
+
+.left-aside-post .card.options .left-icon {
+  width: 34px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+.left-aside-post .card.options:hover .left-icon {
+  background-color: rgba(133, 133, 133, 0.149);
+}
+
 .card-post .body-post {
   padding-left: 50px;
 }

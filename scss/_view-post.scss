@@ -36,3 +36,12 @@
         }
     }
 }
+.discusions{
+    padding: 30px 50px;
+    .discu-header{
+        @include displayFlexBox(flex, row, space-between, center, nowrap);
+    }
+    .discu-comments{
+        @include displayFlexBox(flex, row, flex-start, flex-start, nowrap);
+    }
+}

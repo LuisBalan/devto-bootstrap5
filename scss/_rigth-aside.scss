@@ -1,0 +1,38 @@
+.forem-dev-section{
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    // border: 1px solid black;
+
+    .forem-dev-image-link{
+        align-items: center;
+        overflow: hidden;
+        padding: 5px;
+        // border: 1px solid red;
+        a{
+            img{
+                width: 290px;
+                height: auto;
+            }
+        }
+        
+    }
+
+    .card-body{
+        .card-text{
+            a{
+                span{
+                    color: $quinaryColor;
+                    font-weight: bold;
+                }
+            }
+            
+        }
+        .join{
+            color: $quinaryColor;
+        }
+        
+        
+    }
+
+}

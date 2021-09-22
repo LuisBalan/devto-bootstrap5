@@ -24,6 +24,11 @@ a:hover {
   color: #090909;
 }
 
+.navbar .crayons-avatar__image {
+  border-radius: 50%;
+  width: 24px;
+}
+
 .left-aside .rainbow-logo {
   width: 22px;
 }
@@ -263,6 +268,36 @@ img.img-perfil {
 
 .likes .reactions:hover, .likes .comments:hover {
   background-color: rgba(223, 219, 219, 0.774);
+}
+
+.forem-dev-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.forem-dev-section .forem-dev-image-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.forem-dev-section .forem-dev-image-link a img {
+  width: 290px;
+  height: auto;
+}
+
+.forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bold;
+}
+
+.forem-dev-section .card-body .join {
+  color: #3b49df;
 }
 
 .card-post .body-post {

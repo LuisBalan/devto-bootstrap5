@@ -50,6 +50,7 @@
         height: 50px;
         min-height: 50px;
         max-height: 100px;
+        background-color: $primaryColor;
         transition: all 0.3s;
         &:focus {
           height: 100px;
@@ -85,6 +86,7 @@
   }
   .list-comments {
     .comment {
+        padding:5px;
       .head-comment {
         @include displayFlexBox(flex, row, space-between, center, nowrap);
         .perfil-comment {
@@ -93,6 +95,9 @@
           }
           @include displayFlexBox(flex, row, flex-start, center, nowrap);
         }
+      }
+      .comment-text{
+          padding-left: 50px;
       }
     }
   }

@@ -169,37 +169,6 @@ a:hover {
       flex-wrap: nowrap;
 }
 
-.posts-center .card .card-body .contenido .interactions .likes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions, .posts-center .card .card-body .contenido .interactions .likes .comments {
-  margin: 0px 10px;
-  padding: 5px 5px;
-  border-radius: 5px;
-  font-size: 0.9em;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions:hover, .posts-center .card .card-body .contenido .interactions .likes .comments:hover {
-  background-color: rgba(223, 219, 219, 0.774);
-}
-
 .posts-center .card .card-body .contenido .interactions .save {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +231,38 @@ img.img-perfil {
 
 .date, .text-save {
   font-size: 0.7em;
+}
+
+.likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.likes .reactions, .likes .comments {
+  width: auto;
+  margin: 0px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.likes .reactions:hover, .likes .comments:hover {
+  background-color: rgba(223, 219, 219, 0.774);
 }
 
 .card-post .body-post {
@@ -371,6 +372,7 @@ img.img-perfil {
   height: 50px;
   min-height: 50px;
   max-height: 100px;
+  background-color: #efefef;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -411,6 +413,10 @@ img.img-perfil {
   display: block;
 }
 
+.discusions .list-comments .comment {
+  padding: 5px;
+}
+
 .discusions .list-comments .comment .head-comment {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -449,5 +455,9 @@ img.img-perfil {
 
 .discusions .list-comments .comment .head-comment .perfil-comment p {
   margin: 0px 10px;
+}
+
+.discusions .list-comments .comment .comment-text {
+  padding-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */

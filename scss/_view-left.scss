@@ -1,0 +1,69 @@
+.left-aside-post{
+    padding-top: 50px;
+    height: auto;
+    // border: solid 1px red;
+    position: sticky;
+    top: 50px;
+    .card{
+        border: none;
+        margin-top: 15px;
+        @include displayFlexBox(flex, column, center, center, nowrap);
+        .crayons-icon{
+            transition: all .5s;
+        }
+        .left-icon{
+            padding: 5px;
+            border-radius: 50%;
+            transition: all .5s;
+        }
+        .card-body{
+          padding: 5px;
+      }
+    }
+    // like
+    .card.like{
+        &:hover .crayons-icon{
+            fill: red;
+        }
+        &:hover .left-icon{
+            background-color: rgba(255, 0, 0, 0.149);
+        }
+    }
+    // unicorn
+    .card.unicorn{
+        .sub-icon{
+            fill: #08090A;
+        }
+        &:hover .crayons-icon{
+            fill: rgb(217, 0, 255);
+        }
+        &:hover .sub-icon{
+            fill: rgb(217, 0, 255);
+        }
+        &:hover .left-icon{
+            background-color: rgba(204, 0, 255, 0.149);
+        }
+    }
+    // save
+    .card.save{
+        &:hover .crayons-icon{
+            fill: rgb(0, 115, 255);
+        }
+        &:hover .left-icon{
+            background-color: rgba(0, 76, 255, 0.149);
+        }
+    }
+    .card.options{
+        .left-icon{
+            width: 34px;
+            height: 34px;
+        @include displayFlexBox(flex, row, center, center, nowrap);
+        font-size: 1.5em;
+        font-style:oblique;
+         
+        }
+        &:hover .left-icon{
+            background-color: rgba(133, 133, 133, 0.149);
+        }
+    }
+}

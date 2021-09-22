@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "roboto-regular";
+  font-family: "Roboto-Regular";
   src: url("../font/Roboto-Regular.ttf") format("truetype");
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "roboto-regular" !important;
+  font-family: "Roboto-Regular" !important;
   background-color: #ffffff;
 }
 
@@ -174,37 +174,6 @@ a:hover {
       flex-wrap: nowrap;
 }
 
-.posts-center .card .card-body .contenido .interactions .likes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions, .posts-center .card .card-body .contenido .interactions .likes .comments {
-  margin: 0px 10px;
-  padding: 5px 5px;
-  border-radius: 5px;
-  font-size: 0.9em;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions:hover, .posts-center .card .card-body .contenido .interactions .likes .comments:hover {
-  background-color: rgba(223, 219, 219, 0.774);
-}
-
 .posts-center .card .card-body .contenido .interactions .save {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -269,12 +238,45 @@ img.img-perfil {
   font-size: 0.7em;
 }
 
+.likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.likes .reactions, .likes .comments {
+  width: auto;
+  margin: 0px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.likes .reactions:hover, .likes .comments:hover {
+  background-color: rgba(223, 219, 219, 0.774);
+}
+
 .forem-dev-section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   background: #f9f9f9;
   border-radius: 10px;
+  padding-bottom: 0;
 }
 
 .forem-dev-section .forem-dev-image-link {
@@ -283,6 +285,9 @@ img.img-perfil {
           align-items: center;
   overflow: hidden;
   padding: 5px;
+  margin: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .forem-dev-section .forem-dev-image-link a img {
@@ -290,13 +295,291 @@ img.img-perfil {
   height: auto;
 }
 
+.forem-dev-section .card-body .card-text {
+  text-align: justify;
+}
+
 .forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bolder;
+}
+
+.forem-dev-section .card-body .join a {
   color: #3b49df;
   font-weight: bold;
 }
 
-.forem-dev-section .card-body .join {
+.listing-section .list-group .listing-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listing-section .list-group .listing-section-head .listing-noun {
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.listing-section .list-group .listing-section-head a .see-all-option-link {
   color: #3b49df;
+  font-weight: bold;
+}
+
+.listing-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.listing-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.listing-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.listing-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.news-section .list-group .news-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news-section .list-group .news-section-head .news-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.news-section .list-group .news-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.news-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.news-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.help-section .list-group .help-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.help-section .list-group .help-section-head .help-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.help-section .list-group .help-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.help-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.help-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.left-aside-post {
+  padding-top: 50px;
+  height: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+.left-aside-post .card {
+  border: none;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.left-aside-post .card .crayons-icon {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .left-icon {
+  padding: 5px;
+  border-radius: 50%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.left-aside-post .card .card-body {
+  padding: 5px;
+}
+
+.left-aside-post .card.like:hover .crayons-icon {
+  fill: red;
+}
+
+.left-aside-post .card.like:hover .left-icon {
+  background-color: rgba(255, 0, 0, 0.149);
+}
+
+.left-aside-post .card.unicorn .sub-icon {
+  fill: #08090A;
+}
+
+.left-aside-post .card.unicorn:hover .crayons-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .sub-icon {
+  fill: #d900ff;
+}
+
+.left-aside-post .card.unicorn:hover .left-icon {
+  background-color: rgba(204, 0, 255, 0.149);
+}
+
+.left-aside-post .card.save:hover .crayons-icon {
+  fill: #0073ff;
+}
+
+.left-aside-post .card.save:hover .left-icon {
+  background-color: rgba(0, 76, 255, 0.149);
+}
+
+.left-aside-post .card.options .left-icon {
+  width: 34px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  font-size: 1.5em;
+  font-style: oblique;
+}
+
+.left-aside-post .card.options:hover .left-icon {
+  background-color: rgba(133, 133, 133, 0.149);
 }
 
 .card-post .body-post {
@@ -350,8 +633,8 @@ img.img-perfil {
 .card-post .body-post .perfil-post .name {
   padding: 5px;
   border-radius: 5px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-post .body-post .perfil-post .name:hover {
@@ -396,5 +679,234 @@ img.img-perfil {
           align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+}
+
+.discusions .discu-comments .area-text {
+  width: 100%;
+}
+
+.discusions .discu-comments .area-text .form-control {
+  height: 50px;
+  min-height: 50px;
+  max-height: 100px;
+  background-color: #efefef;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .form-control:focus {
+  height: 100px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+}
+
+.discusions .discu-comments .area-text .comment-config {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn .crayons-icon {
+  fill: grey;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn:hover .crayons-icon {
+  fill: white;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-config {
+  display: block;
+}
+
+.discusions .discu-comments .area-text .comment-buttons {
+  display: none;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-buttons {
+  display: block;
+}
+
+.discusions .list-comments .comment {
+  padding: 5px;
+}
+
+.discusions .list-comments .comment .head-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment p {
+  margin: 0px 10px;
+}
+
+.discusions .list-comments .comment .comment-text {
+  padding-left: 50px;
+}
+
+.right-aside-post {
+  position: -webkit-sticky;
+  position: sticky;
+  height: auto;
+  top: 50px;
+}
+
+.right-aside-post .author-information-container {
+  width: 100%;
+  margin: 0 0 20px 0;
+  border: 0.2px solid #b1b1b1;
+}
+
+.right-aside-post .author-information-container .photo-name-author {
+  border: none;
+  padding: 0 0 3px 0;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-header {
+  background: #bdc3c7;
+  padding: 0 0 15px 0;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  top: -35px;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body img {
+  border-radius: 50%;
+}
+
+.right-aside-post .author-information-container .photo-name-author .card-body .card-title {
+  position: relative;
+  left: 3px;
+  bottom: -10px;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.right-aside-post .author-information-container .follow-button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-aside-post .author-information-container .follow-button-container .follow-button {
+  border: none;
+  background: #4d72de;
+  width: 90%;
+}
+
+.right-aside-post .author-information-container .follow-button:hover {
+  background: #3b49df;
+}
+
+.right-aside-post .author-information-container .author-quote {
+  border: none;
+}
+
+.right-aside-post .author-information-container .author-quote .card-body p {
+  color: #575757;
+}
+
+.right-aside-post .author-information-container .personal-info-author {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author ul {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author ul li {
+  border: none;
+}
+
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .question {
+  font-size: small;
+  font-weight: bold;
+  color: #575757;
+}
+
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .answer {
+  font-size: medium;
+  color: #090909;
+}
+
+.right-aside-post .more-about-author-container .list-group .more-about-title {
+  font-size: x-small;
+  font-weight: bolder;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item {
+  color: black;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item span {
+  color: #3b49df;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item .tag {
+  color: #575757;
+}
+
+.right-aside-post .more-about-author-container .list-group .list-group-item:hover {
+  background: white;
+  color: #3b49df;
 }
 /*# sourceMappingURL=style.css.map */

@@ -79,7 +79,7 @@
     <div class="container mt-3">
       <div class="row">
            <!-- INICIO - LEFT - BALAN -->
-          <div class="col-2 left-aside border">
+          <div class="col-md-3 col-lg-3 col-xl-2 left-aside d-none d-md-block">
             <!-- <p>hola</p> -->
 
             <div class = "col-lg-12">
@@ -255,13 +255,13 @@
                       <div class="reactions">
                         <a href="#">
                           <svg class="crayons-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
-                          15 <span class="text-likes d-none d-md-none d-lg-block">reactions</span>
+                          15 <p class="parra d-none d-md-none d-lg-inline">reactions</p>
                         </a>
                       </div>
                       <div class="comments">
                         <a href="">
                           <svg class="crayons-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-                          10 <span class="text-likes d-none d-md-none d-lg-block">comments</span>
+                          10 <p class="parra d-none d-md-none d-lg-inline">comments</p>
                         </a>
                       </div>
                     </div>
@@ -297,16 +297,18 @@
                   </div>
                   <div class="interactions">
                     <div class="likes">
+
                       <div class="reactions">
                         <a href="#">
                           <svg class="crayons-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M18.884 12.595l.01.011L12 19.5l-6.894-6.894.01-.01A4.875 4.875 0 0112 5.73a4.875 4.875 0 016.884 6.865zM6.431 7.037a3.375 3.375 0 000 4.773L12 17.38l5.569-5.569a3.375 3.375 0 10-4.773-4.773L9.613 10.22l-1.06-1.062 2.371-2.372a3.375 3.375 0 00-4.492.25v.001z"></path></svg>
-                          15 <span class="text-likes d-none d-md-none d-lg-block">reactions</span>
+                          15 <p class="parra d-none d-md-none d-lg-inline">reactions</p>
                         </a>
                       </div>
+
                       <div class="comments">
                         <a href="">
                           <svg class="crayons-icon" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M10.5 5h3a6 6 0 110 12v2.625c-3.75-1.5-9-3.75-9-8.625a6 6 0 016-6zM12 15.5h1.5a4.501 4.501 0 001.722-8.657A4.5 4.5 0 0013.5 6.5h-3A4.5 4.5 0 006 11c0 2.707 1.846 4.475 6 6.36V15.5z"></path></svg>
-                          10 <span class="text-likes d-none d-md-none d-lg-block">comments</span>
+                          10 <span class="text-likes d-none d-md-none d-lg-inline">comments</span>
                         </a>
                       </div>
                     </div>
@@ -340,14 +342,104 @@
                 <a href="#"><span>Forem.dev</span></a> is a community dedicated to discussing and discovering the open source community software that powers DEV.
               </p>
               <p class = "join">
-                <span>&#8594;</span> Join
+                <a href="#">
+                  <span>&#8594;</span> Join
+                </a>
               </p>  
             </div>
           </div>
 
-          <div class = "listings-section">
+          <div class = "listing-section">
+            <div class="list-group">
+
+              <div class="list-group-item listing-section-head">
+                <span class = "listing-noun" >Listing</span><br>
+                <a href = "#"><span class = "see-all-option-link">See all</span></a>
+              </div>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >The future of HTML Controls - Free Session - Sep 23, 1pm ET (GMT-4)</span><br>
+                <span class = "subtitle-listing-elements">events</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >❗ATTENTION❗DevTernity is coming!</span><br>
+                <span class = "subtitle-listing-elements">events</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >CSSBattle 15 has begun! ⚔️</span><br>
+                <span class = "subtitle-listing-elements">events</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span>The Non-fiction Library</span><br>
+                <span class = "subtitle-listing-elements">products</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span>Senior Software Engineer, Data // REMOTE // Verb Data</span><br>
+                <span class = "subtitle-listing-elements">jobs</span>
+              </a>
+              <a href="#" class="list-group-item create-a-listing-button">Create a Listing</a>
+              <!-- <a class="list-group-item list-group-item-action disabled">A disabled link item</a> -->
+            </div>
 
           </div>
+
+          <div class = "news-section">
+
+            <div class="list-group">
+
+              <div class="list-group-item news-section-head">
+                <!-- <span class = "listing-noun" >#news</span><br> -->
+                <a href = "#" class = "news-link"><span >#news</span></a>
+              </div>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >How my open source project got angel investment from a user itself!</span><br>
+                <span class = "subtitle-listing-elements">1 comment</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >Mudan&#231;a de Privacidad Chegando</span><br>
+                <button type="button" class="btn btn-primary btn-sm">New</button>
+                <!-- <span class = "subtitle-listing-elements">events</span> -->
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >Save your application from crashing by wrong use of Web Storage API or localStorage in browser</span><br>
+                <span class = "subtitle-listing-elements">2 comments</span>
+              </a>
+            
+            </div>
+
+          </div>
+
+          <div class = "help-section">
+
+            <div class="list-group">
+
+              <div class="list-group-item help-section-head">
+                <a href = "#" class = "help-link"><span >#help</span></a>
+              </div>
+
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >Hello, world!</span><br>
+                <button type="button" class="btn btn-primary btn-sm">New</button>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >My first website...</span><br>
+                <button type="button" class="btn btn-primary btn-sm">New</button>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >When I create a post, how to automatically complete the tag metadata?</span><br>
+                <span class = "subtitle-listing-elements">1 comment</span>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >Esp-eye, what a package / library do I use?</span><br>
+                <button type="button" class="btn btn-primary btn-sm">New</button>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action">
+                <span >How to write a README?</span><br>
+                <span class = "subtitle-listing-elements">2 comments</span>
+              </a>
+            
+            </div>
+
+
 
           
 

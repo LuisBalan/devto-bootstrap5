@@ -1,0 +1,104 @@
+@mixin tags-style(){
+    font-weight: bolder;
+    font-size: large;
+}
+
+.left-aside{
+
+    .rainbow-logo{
+        width:22px;
+    }
+    
+    .list-group{
+        .list-group-item{
+            border: none;
+        }
+    
+        .other-tag{
+            @include tags-style();
+        }
+     
+    }
+
+    .social-networks-icons-container{
+        margin: 25px 0 25px 0;
+        // background: yellow;
+        // border:1px solid black;
+        .row{
+            .col-2{
+                .navbar-brand{
+                    padding: 5px;
+                    // background: grey;                
+                }
+
+                .navbar-brand:hover{
+                    path{
+                        fill: black;
+                    }
+                }
+
+
+            }
+
+        }
+        
+    }
+    
+    .mytags-tag{
+        @include tags-style();
+    }
+    
+    .my_tags_container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 0 15px 0;
+    
+    
+        a{
+            background: #e7e7e7;
+            padding: 3px;
+            border-radius: 5px;
+            .bi-nut{
+                color: #090909;
+                font-weight: bolder;
+            }
+        }
+        
+    }
+    
+    .tags-column{
+       height: 278px;
+    }
+    
+    .card{
+        border: none;
+        margin-top: 25px;
+        
+        a{
+            img{
+                border-radius: 5px;
+            }
+        }
+
+        .card-body{
+            p{
+                a{
+                    text-decoration: none;
+                    text-align: justify;
+                    color: #3b49df;
+                    font-size: x-large;
+                    font-weight: bolder;
+
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+

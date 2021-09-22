@@ -1,0 +1,214 @@
+.forem-dev-section{
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding-bottom: 0;
+    // border: 1px solid black;
+
+    .forem-dev-image-link{
+        align-items: center;
+        overflow: hidden;
+        padding: 5px;
+        // border: 1px solid red;
+        margin: 10px;
+        position: relative;
+        top: 10px;
+        a{
+            img{
+                width: 290px;
+                height: auto;
+            }
+        }
+        
+    }
+
+    .card-body{
+        .card-text{
+            text-align: justify;
+            a{
+                span{
+                    color: $quinaryColor;
+                    font-weight: bolder;
+                }
+            }
+            
+        }
+        .join{
+            a{
+                color: $quinaryColor;
+                font-weight: bold;
+
+            }
+            
+        }
+        
+        
+    }
+
+}
+
+.listing-section{
+    .list-group{
+
+        .listing-section-head{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
+
+            .listing-noun{
+                font-weight: bolder;
+                font-size: large;
+                color: black;
+            }
+
+            a{
+                
+                .see-all-option-link{
+                color: $quinaryColor;
+                font-weight: bold;
+                }
+
+            }
+        }
+
+        .list-group-item{
+           
+            .subtitle-listing-elements{
+                font-size: small;
+                color: $shadowsideColor;
+                font-weight: bold;
+            }
+
+            .subtitle-listing-elements:hover{
+                color: $pTextColor;
+            }
+        }
+
+        .list-group-item:hover{
+            color: $quinaryColor;
+        }
+
+        .create-a-listing-button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+
+        }
+
+    }
+}
+
+.news-section{
+    .list-group{
+
+        .news-section-head{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-start;
+      
+            .news-link{
+                color: $quinaryColor;
+                font-weight: bolder;
+                font-size: large;
+                color: black;
+            }
+
+            .news-link:hover{
+                color: $quinaryColor;
+            }
+        }
+
+        .list-group-item{
+           
+            .subtitle-listing-elements{
+                font-size: small;
+                color: $shadowsideColor;
+                font-weight: bold;
+            }
+
+            .subtitle-listing-elements:hover{
+                color: $pTextColor;
+            }
+
+            .btn{
+                background: $quinaryColor;
+                padding: 1.5px;
+                font-size: small;
+            }
+        }
+
+        .list-group-item:hover{
+            color: $quinaryColor;
+        }
+
+        .create-a-listing-button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+
+        }
+
+    }
+}
+
+.help-section{
+    .list-group{
+
+        .help-section-head{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-start;
+      
+            .help-link{
+                color: $quinaryColor;
+                font-weight: bolder;
+                font-size: large;
+                color: black;
+            }
+
+            .news-link:hover{
+                color: $quinaryColor;
+            }
+        }
+
+        .list-group-item{
+           
+            .subtitle-listing-elements{
+                font-size: small;
+                color: $shadowsideColor;
+                font-weight: bold;
+            }
+
+            .subtitle-listing-elements:hover{
+                color: $pTextColor;
+            }
+
+            .btn{
+                background: $quinaryColor;
+                padding: 1.5px;
+                font-size: small;
+            }
+        }
+
+        .list-group-item:hover{
+            color: $quinaryColor;
+        }
+
+        .create-a-listing-button{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+
+        }
+
+    }
+}

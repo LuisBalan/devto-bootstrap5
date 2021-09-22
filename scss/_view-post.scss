@@ -1,0 +1,104 @@
+.card-post {
+  .body-post {
+    padding-left: 50px;
+    .title-post {
+      font-size: $titleText;
+    }
+    .tags-posts {
+      a.post-tags {
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .post-tags:nth-child(1) {
+        background-color: rgb(181, 161, 11);
+      }
+      .post-tags:nth-child(2) {
+        background-color: rgb(5, 117, 174);
+      }
+      .post-tags:nth-child(3) {
+        background-color: rgb(3, 159, 60);
+      }
+    }
+    .perfil-post {
+      @include displayFlexBox(flex, row, flex-start, center, nowrap);
+      p {
+        margin: 0px 10px;
+      }
+      .name {
+        padding: 5px;
+        border-radius: 5px;
+        transition: all 0.5s;
+        &:hover {
+          background-color: $transparent;
+        }
+      }
+    }
+  }
+}
+.discusions {
+  padding: 30px 50px;
+  .discu-header {
+    @include displayFlexBox(flex, row, space-between, center, nowrap);
+  }
+  .discu-comments {
+    @include displayFlexBox(flex, row, flex-start, flex-start, nowrap);
+    .area-text {
+      width: 100%;
+      // border: solid 1px red;
+      .form-control {
+        height: 50px;
+        min-height: 50px;
+        max-height: 100px;
+        background-color: $primaryColor;
+        transition: all 0.3s;
+        &:focus {
+          height: 100px;
+          box-shadow: none;
+          border: solid 1px $transparent;
+        }
+      }
+      .comment-config {
+        display: none;
+        width: 100%;
+        height: auto;
+        border: solid 1px $transparent;
+        transition: all 0.3s;
+        button.btn {
+          .crayons-icon {
+            fill: grey;
+          }
+          &:hover .crayons-icon {
+            fill: white;
+          }
+        }
+      }
+      .form-control:focus ~ .comment-config {
+        display: block;
+      }
+      .comment-buttons {
+        display: none;
+      }
+      .form-control:focus ~ .comment-buttons {
+        display: block;
+      }
+    }
+  }
+  .list-comments {
+    .comment {
+        padding:5px;
+      .head-comment {
+        @include displayFlexBox(flex, row, space-between, center, nowrap);
+        .perfil-comment {
+          p{
+            margin: 0px 10px;
+          }
+          @include displayFlexBox(flex, row, flex-start, center, nowrap);
+        }
+      }
+      .comment-text{
+          padding-left: 50px;
+      }
+    }
+  }
+}

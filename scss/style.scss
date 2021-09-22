@@ -1,8 +1,12 @@
-@import "./utils"; 
 @import "./config";
+@import "./utils"; 
 @import "./mixins";
 @import "./navbar";
 @import "./left-aside";
 @import "./main";
 @import "./rigth-aside";
 @import "./footer";
+// POST----------------
+@import "./view-left";
+@import "./view-post";
+@import "./view-rigth";

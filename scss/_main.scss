@@ -14,26 +14,8 @@
 .posts-center{
     .card{
         .card-body{
-            p{
-                margin-bottom: 0px;
-                color: $pTextColor;
-            }
             .perfil{
                 @include displayFlexBox(flex, row, flex-start, center, nowrap);
-                img.img{
-                    width: 35px;
-                    height: 35px;
-                    margin-right: 10px ;
-                    border-radius: 50%;
-                }
-                .data{
-                    .name{
-                        font-size: $smallText;
-                    }
-                    .date{
-                        font-size: $xsmallText;
-                    }
-                }
             }
             .contenido{
                 padding-left: 40px;
@@ -42,15 +24,6 @@
                     transition: all .5s;
                     &:hover{
                         color: $terciaryColor;
-                    }
-                }
-                a.post-tags{
-                    margin-right: 5px;
-                    font-size: $smallText;
-                    color: $pTextColor;
-                    transition: all .5s;
-                    &:hover{
-                        color: $cuaternaryColor;
                     }
                 }
                 .interactions{
@@ -70,9 +43,6 @@
                     }
                     .save{
                         @include displayFlexBox(flex, row, center, center, nowrap);                        
-                        .text-save{
-                            font-size: $xsmallText;
-                        }
                         .btn-save{
                             margin-left: 5px;
                             padding: 5px;
@@ -89,4 +59,29 @@
             }
         }
     }
+}
+p.parra{
+    margin-bottom: 0px;
+    color: $pTextColor;
+}
+a.post-tags{
+    margin-right: 5px;
+    font-size: $smallText;
+    color: $pTextColor;
+    transition: all .5s;
+    &:hover{
+        color: $cuaternaryColor;
+    }
+}
+img.img-perfil{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px ;
+    border-radius: 50%;
+}
+.name{
+    font-size: $smallText;
+}
+.date, .text-save{
+    font-size: $xsmallText;
 }

@@ -10,7 +10,10 @@
         "../scss/_left-aside.scss",
         "../scss/_main.scss",
         "../scss/_rigth-aside.scss",
-        "../scss/_footer.scss"
+        "../scss/_footer.scss",
+        "../scss/_view-left.scss",
+        "../scss/_view-post.scss",
+        "../scss/_view-rigth.scss"
     ],
     "names": [],
     "file": "style.css"

@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "roboto-regular";
+  font-family: "Roboto-Regular";
   src: url("../font/Roboto-Regular.ttf") format("truetype");
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "roboto-regular" !important;
+  font-family: "Roboto-Regular" !important;
   background-color: #ffffff;
 }
 
@@ -174,37 +174,6 @@ a:hover {
       flex-wrap: nowrap;
 }
 
-.posts-center .card .card-body .contenido .interactions .likes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions, .posts-center .card .card-body .contenido .interactions .likes .comments {
-  margin: 0px 10px;
-  padding: 5px 5px;
-  border-radius: 5px;
-  font-size: 0.9em;
-  -webkit-transition: all .5s;
-  transition: all .5s;
-}
-
-.posts-center .card .card-body .contenido .interactions .likes .reactions:hover, .posts-center .card .card-body .contenido .interactions .likes .comments:hover {
-  background-color: rgba(223, 219, 219, 0.774);
-}
-
 .posts-center .card .card-body .contenido .interactions .save {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -237,6 +206,98 @@ a:hover {
   background-color: #c2c2c2;
 }
 
+p.parra {
+  margin-bottom: 0px;
+  color: #575757;
+}
+
+a.post-tags {
+  margin-right: 5px;
+  font-size: 0.9em;
+  color: #575757;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+a.post-tags:hover {
+  color: #090909;
+}
+
+img.img-perfil {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 0.9em;
+}
+
+.date, .text-save {
+  font-size: 0.7em;
+}
+
+.likes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.likes .reactions, .likes .comments {
+  width: auto;
+  margin: 0px 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.likes .reactions:hover, .likes .comments:hover {
+  background-color: rgba(223, 219, 219, 0.774);
+}
+.forem-dev-section {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.forem-dev-section .forem-dev-image-link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.forem-dev-section .forem-dev-image-link a img {
+  width: 290px;
+  height: auto;
+}
+
+.forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bold;
+}
+
+.forem-dev-section .card-body .join {
+  color: #3b49df;
+=======
 p.parra {
   margin-bottom: 0px;
   color: #575757;
@@ -530,8 +591,8 @@ img.img-perfil {
 .card-post .body-post .perfil-post .name {
   padding: 5px;
   border-radius: 5px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-post .body-post .perfil-post .name:hover {
@@ -576,5 +637,103 @@ img.img-perfil {
           align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+
+}
+
+.discusions .discu-comments .area-text {
+  width: 100%;
+}
+
+.discusions .discu-comments .area-text .form-control {
+  height: 50px;
+  min-height: 50px;
+  max-height: 100px;
+  background-color: #efefef;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .form-control:focus {
+  height: 100px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+}
+
+.discusions .discu-comments .area-text .comment-config {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn .crayons-icon {
+  fill: grey;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn:hover .crayons-icon {
+  fill: white;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-config {
+  display: block;
+}
+
+.discusions .discu-comments .area-text .comment-buttons {
+  display: none;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-buttons {
+  display: block;
+}
+
+.discusions .list-comments .comment {
+  padding: 5px;
+}
+
+.discusions .list-comments .comment .head-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment p {
+  margin: 0px 10px;
+}
+
+.discusions .list-comments .comment .comment-text {
+  padding-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */

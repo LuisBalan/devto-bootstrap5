@@ -24,6 +24,11 @@ a:hover {
   color: #090909;
 }
 
+.navbar .crayons-avatar__image {
+  border-radius: 50%;
+  width: 24px;
+}
+
 .left-aside .rainbow-logo {
   width: 22px;
 }

@@ -336,6 +336,7 @@ img.img-perfil {
           align-items: center;
   background: #f9f9f9;
   border-radius: 10px;
+  padding-bottom: 0;
 }
 
 .forem-dev-section .forem-dev-image-link {
@@ -344,6 +345,9 @@ img.img-perfil {
           align-items: center;
   overflow: hidden;
   padding: 5px;
+  margin: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .forem-dev-section .forem-dev-image-link a img {
@@ -351,13 +355,189 @@ img.img-perfil {
   height: auto;
 }
 
+.forem-dev-section .card-body .card-text {
+  text-align: justify;
+}
+
 .forem-dev-section .card-body .card-text a span {
+  color: #3b49df;
+  font-weight: bolder;
+}
+
+.forem-dev-section .card-body .join a {
   color: #3b49df;
   font-weight: bold;
 }
 
-.forem-dev-section .card-body .join {
+.listing-section .list-group .listing-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listing-section .list-group .listing-section-head .listing-noun {
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.listing-section .list-group .listing-section-head a .see-all-option-link {
   color: #3b49df;
+  font-weight: bold;
+}
+
+.listing-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.listing-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.listing-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.listing-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.news-section .list-group .news-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.news-section .list-group .news-section-head .news-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.news-section .list-group .news-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.news-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.news-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.news-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.news-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+}
+
+.help-section .list-group .help-section-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.help-section .list-group .help-section-head .help-link {
+  color: #3b49df;
+  font-weight: bolder;
+  font-size: large;
+  color: black;
+}
+
+.help-section .list-group .help-section-head .news-link:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements {
+  font-size: small;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.help-section .list-group .list-group-item .subtitle-listing-elements:hover {
+  color: #575757;
+}
+
+.help-section .list-group .list-group-item .btn {
+  background: #3b49df;
+  padding: 1.5px;
+  font-size: small;
+}
+
+.help-section .list-group .list-group-item:hover {
+  color: #3b49df;
+}
+
+.help-section .list-group .create-a-listing-button {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
 }
 
 .card-post .body-post {

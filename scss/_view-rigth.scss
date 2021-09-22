@@ -3,6 +3,14 @@
          margin: 0;
          border: none;
 
+         .follow-button{
+             background: $terciaryColor;
+         }
+
+         .follow-button:hover{
+             background: $quinaryColor;
+         }
+
          .author-quote{
              .card-body{
                  p{

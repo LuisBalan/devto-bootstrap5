@@ -682,6 +682,14 @@ img.img-perfil {
   border: none;
 }
 
+.author-information-container .follow-button {
+  background: #4d72de;
+}
+
+.author-information-container .follow-button:hover {
+  background: #3b49df;
+}
+
 .author-information-container .author-quote .card-body p {
   color: #575757;
 }

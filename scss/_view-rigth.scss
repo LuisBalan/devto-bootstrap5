@@ -1,0 +1,45 @@
+.author-information-container{
+         width: 100%;
+         margin: 0;
+         border: none;
+
+         .author-quote{
+             .card-body{
+                 p{
+                     color: $pTextColor;
+                 }
+             }
+         }
+
+         .personal-info-author{
+             .list-group{
+                 .list-group-item{
+                     .question{
+                         font-size: small;
+                         font-weight: bold;
+                         color: $pTextColor;
+                     }
+
+                     .answer{
+                         font-size: medium;
+                         color: $cuaternaryColor;
+
+                     }
+                 }
+
+             }
+
+         }
+
+        //  .card-body{
+        //      .card-title{
+        //          font-size: x-large;
+        //          font-weight: bolder;
+        //          justify-content: space-between;
+        //      }
+        //      .card-text{
+        //          text-align: justify;
+        //      }
+        //  }
+    }
+

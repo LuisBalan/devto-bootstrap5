@@ -675,4 +675,25 @@ img.img-perfil {
 .discusions .list-comments .comment .comment-text {
   padding-left: 50px;
 }
+
+.author-information-container {
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+
+.author-information-container .author-quote .card-body p {
+  color: #575757;
+}
+
+.author-information-container .personal-info-author .list-group .list-group-item .question {
+  font-size: small;
+  font-weight: bold;
+  color: #575757;
+}
+
+.author-information-container .personal-info-author .list-group .list-group-item .answer {
+  font-size: medium;
+  color: #090909;
+}
 /*# sourceMappingURL=style.css.map */

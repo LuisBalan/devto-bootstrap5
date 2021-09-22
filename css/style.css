@@ -676,25 +676,30 @@ img.img-perfil {
   padding-left: 50px;
 }
 
-.author-information-container {
+.right-aside-post {
+  position: -webkit-sticky;
+  position: sticky;
+  height: auto;
+  top: 50px;
+}
+
+.right-aside-post .author-information-container {
   width: 100%;
   margin: 0 0 20px 0;
   border: 0.2px solid #b1b1b1;
-  position: -webkit-sticky;
-  position: sticky;
 }
 
-.author-information-container .photo-name-author {
+.right-aside-post .author-information-container .photo-name-author {
   border: none;
   padding: 0 0 3px 0;
 }
 
-.author-information-container .photo-name-author .card-header {
+.right-aside-post .author-information-container .photo-name-author .card-header {
   background: #bdc3c7;
   padding: 0 0 15px 0;
 }
 
-.author-information-container .photo-name-author .card-body {
+.right-aside-post .author-information-container .photo-name-author .card-body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -712,11 +717,11 @@ img.img-perfil {
   top: -35px;
 }
 
-.author-information-container .photo-name-author .card-body img {
+.right-aside-post .author-information-container .photo-name-author .card-body img {
   border-radius: 50%;
 }
 
-.author-information-container .photo-name-author .card-body .card-title {
+.right-aside-post .author-information-container .photo-name-author .card-body .card-title {
   position: relative;
   left: 3px;
   bottom: -10px;
@@ -724,7 +729,7 @@ img.img-perfil {
   font-size: x-large;
 }
 
-.author-information-container .follow-button-container {
+.right-aside-post .author-information-container .follow-button-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -740,65 +745,65 @@ img.img-perfil {
           justify-content: space-between;
 }
 
-.author-information-container .follow-button-container .follow-button {
+.right-aside-post .author-information-container .follow-button-container .follow-button {
   border: none;
   background: #4d72de;
   width: 90%;
 }
 
-.author-information-container .follow-button:hover {
+.right-aside-post .author-information-container .follow-button:hover {
   background: #3b49df;
 }
 
-.author-information-container .author-quote {
+.right-aside-post .author-information-container .author-quote {
   border: none;
 }
 
-.author-information-container .author-quote .card-body p {
+.right-aside-post .author-information-container .author-quote .card-body p {
   color: #575757;
 }
 
-.author-information-container .personal-info-author {
+.right-aside-post .author-information-container .personal-info-author {
   border: none;
 }
 
-.author-information-container .personal-info-author ul {
+.right-aside-post .author-information-container .personal-info-author ul {
   border: none;
 }
 
-.author-information-container .personal-info-author ul li {
+.right-aside-post .author-information-container .personal-info-author ul li {
   border: none;
 }
 
-.author-information-container .personal-info-author .list-group .list-group-item .question {
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .question {
   font-size: small;
   font-weight: bold;
   color: #575757;
 }
 
-.author-information-container .personal-info-author .list-group .list-group-item .answer {
+.right-aside-post .author-information-container .personal-info-author .list-group .list-group-item .answer {
   font-size: medium;
   color: #090909;
 }
 
-.more-about-author-container .list-group .more-about-title {
+.right-aside-post .more-about-author-container .list-group .more-about-title {
   font-size: x-small;
   font-weight: bolder;
 }
 
-.more-about-author-container .list-group .list-group-item {
+.right-aside-post .more-about-author-container .list-group .list-group-item {
   color: black;
 }
 
-.more-about-author-container .list-group .list-group-item span {
+.right-aside-post .more-about-author-container .list-group .list-group-item span {
   color: #3b49df;
 }
 
-.more-about-author-container .list-group .list-group-item .tag {
+.right-aside-post .more-about-author-container .list-group .list-group-item .tag {
   color: #575757;
 }
 
-.more-about-author-container .list-group .list-group-item:hover {
+.right-aside-post .more-about-author-container .list-group .list-group-item:hover {
   background: white;
   color: #3b49df;
 }

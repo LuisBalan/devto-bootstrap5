@@ -2,6 +2,35 @@
          width: 100%;
          margin: 0;
          border: none;
+         position: sticky;
+
+         .photo-name-author{
+             padding: 0 0 3px 0;
+             .card-header{
+                 background: #bdc3c7;
+                 padding: 0 0 15px 0;
+             }
+
+             .card-body{
+                 display: flex;
+                 flex-direction: row;
+                 align-items: flex-end;
+                 justify-content: flex-start;
+                 position: relative;
+                 top: -35px;
+
+                 img{
+                     border-radius: 50%;
+                 }
+                 .card-title{
+                     position: relative;
+                     left:3px;
+                     bottom: -10px;
+                     font-weight: bolder;
+                     font-size: x-large;
+                 }
+             }
+         }
 
          .follow-button{
              background: $terciaryColor;

@@ -680,6 +680,47 @@ img.img-perfil {
   width: 100%;
   margin: 0;
   border: none;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.author-information-container .photo-name-author {
+  padding: 0 0 3px 0;
+}
+
+.author-information-container .photo-name-author .card-header {
+  background: #bdc3c7;
+  padding: 0 0 15px 0;
+}
+
+.author-information-container .photo-name-author .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+  top: -35px;
+}
+
+.author-information-container .photo-name-author .card-body img {
+  border-radius: 50%;
+}
+
+.author-information-container .photo-name-author .card-body .card-title {
+  position: relative;
+  left: 3px;
+  bottom: -10px;
+  font-weight: bolder;
+  font-size: x-large;
 }
 
 .author-information-container .follow-button {

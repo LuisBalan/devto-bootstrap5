@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "roboto-regular";
+  font-family: "Roboto-Regular";
   src: url("../font/Roboto-Regular.ttf") format("truetype");
 }
 
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: "roboto-regular" !important;
+  font-family: "Roboto-Regular" !important;
   background-color: #ffffff;
 }
 
@@ -315,8 +315,8 @@ img.img-perfil {
 .card-post .body-post .perfil-post .name {
   padding: 5px;
   border-radius: 5px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .card-post .body-post .perfil-post .name:hover {
@@ -361,5 +361,93 @@ img.img-perfil {
           align-items: flex-start;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+}
+
+.discusions .discu-comments .area-text {
+  width: 100%;
+}
+
+.discusions .discu-comments .area-text .form-control {
+  height: 50px;
+  min-height: 50px;
+  max-height: 100px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .form-control:focus {
+  height: 100px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+}
+
+.discusions .discu-comments .area-text .comment-config {
+  display: none;
+  width: 100%;
+  height: auto;
+  border: solid 1px rgba(223, 219, 219, 0.774);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn .crayons-icon {
+  fill: grey;
+}
+
+.discusions .discu-comments .area-text .comment-config button.btn:hover .crayons-icon {
+  fill: white;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-config {
+  display: block;
+}
+
+.discusions .discu-comments .area-text .comment-buttons {
+  display: none;
+}
+
+.discusions .discu-comments .area-text .form-control:focus ~ .comment-buttons {
+  display: block;
+}
+
+.discusions .list-comments .comment .head-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.discusions .list-comments .comment .head-comment .perfil-comment p {
+  margin: 0px 10px;
 }
 /*# sourceMappingURL=style.css.map */

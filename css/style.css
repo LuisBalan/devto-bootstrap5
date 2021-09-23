@@ -497,6 +497,22 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.footer-container {
+  background: #b1b1b1;
+}
+
+.footer-container .gray-top-row {
+  height: 50px;
+}
+
+.footer-container .text-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .left-aside-post {
   padding-top: 50px;
   height: auto;

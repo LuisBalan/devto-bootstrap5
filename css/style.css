@@ -29,6 +29,16 @@ a:hover {
   width: 24px;
 }
 
+.navbar .crayons-avatar__image:hover {
+  -webkit-filter: contrast(50%);
+          filter: contrast(50%);
+}
+
+.navbar #nav_button:hover {
+  -webkit-filter: contrast(30%);
+          filter: contrast(30%);
+}
+
 .left-aside .rainbow-logo {
   width: 22px;
 }

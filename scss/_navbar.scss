@@ -14,3 +14,9 @@
         filter: contrast(30%);
     }
 }
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}

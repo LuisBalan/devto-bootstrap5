@@ -2,3 +2,21 @@
     border-radius: 50%;
     width: 24px;
 }
+
+.navbar .crayons-avatar__image:hover{
+    filter: contrast(50%);
+}
+
+
+.navbar{
+
+    #nav_button:hover{
+        filter: contrast(30%);
+    }
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}

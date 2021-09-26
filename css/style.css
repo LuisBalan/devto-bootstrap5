@@ -501,14 +501,36 @@ img.img-perfil {
   background: #d6d6d7;
 }
 
-.footer-container .gray-top-row {
-  height: 50px;
+.footer-container .gray-row {
+  height: 60px;
 }
 
-.footer-container .text-container {
+.footer-container .row .text-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.footer-container .row p {
+  color: #575757;
+  font-size: small;
+}
+
+.footer-container .row p a span {
+  font-weight: bolder;
+}
+
+.footer-container .row p a:hover {
+  color: #3b49df;
+}
+
+.footer-container .logo-container .specific-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }

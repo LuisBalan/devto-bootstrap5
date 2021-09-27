@@ -1,0 +1,56 @@
+.footer-container{
+    background: #d6d6d7;
+
+
+    .gray-row{
+        height: 60px;
+    }
+
+    .row{
+
+        .text-container{
+            align-items: center;
+            justify-content: space-around;
+            text-align: center;
+            
+        }
+        p{
+            color: $pTextColor;
+            font-size: small;
+            a{
+                span{
+                    font-weight: bolder;
+                }
+
+            }
+
+            a:hover{
+                color: $quinaryColor;
+            }
+
+        }
+
+        
+
+    }
+
+    .logo-container{
+        .specific-logo-container{
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+
+    // .gray-bottom-row{
+    //     background: #d6d6d6;
+    //     height: 70px;
+    //     border: 1px solid rebeccapurple;
+    // }
+
+}
+
+
+
+
+
+

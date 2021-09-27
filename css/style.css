@@ -294,6 +294,7 @@ img.img-perfil {
   background: #f9f9f9;
   border-radius: 10px;
   padding-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .forem-dev-section .forem-dev-image-link {
@@ -324,6 +325,10 @@ img.img-perfil {
 .forem-dev-section .card-body .join a {
   color: #3b49df;
   font-weight: bold;
+}
+
+.listing-section {
+  margin-bottom: 20px;
 }
 
 .listing-section .list-group .listing-section-head {
@@ -377,6 +382,10 @@ img.img-perfil {
   text-align: center;
   font-size: small;
   font-weight: bolder;
+}
+
+.news-section {
+  margin-bottom: 20px;
 }
 
 .news-section .list-group .news-section-head {
@@ -438,6 +447,10 @@ img.img-perfil {
   font-weight: bolder;
 }
 
+.help-section {
+  margin-bottom: 20px;
+}
+
 .help-section .list-group .help-section-head {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -495,6 +508,44 @@ img.img-perfil {
   text-align: center;
   font-size: small;
   font-weight: bolder;
+}
+
+.footer-container {
+  background: #d6d6d7;
+}
+
+.footer-container .gray-row {
+  height: 60px;
+}
+
+.footer-container .row .text-container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.footer-container .row p {
+  color: #575757;
+  font-size: small;
+}
+
+.footer-container .row p a span {
+  font-weight: bolder;
+}
+
+.footer-container .row p a:hover {
+  color: #3b49df;
+}
+
+.footer-container .logo-container .specific-logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .left-aside-post {
